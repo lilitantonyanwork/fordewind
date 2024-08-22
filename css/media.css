@@ -1,0 +1,220 @@
+@media screen and (max-width: 1500px){
+    nav,section{
+        max-width: 1220px;
+    }
+}
+@media screen and (max-width: 1280px){
+   section,header{
+        padding-left: 50px;
+        padding-right: 50px;
+        box-sizing: border-box;
+    }
+    .service-item{
+        height: auto;
+    }
+    .product-title{
+        align-items: flex-start;
+    }
+    .mechanism-item{
+        padding-right: 96px;
+    }
+    .feature-item{
+        width: calc(100%/2 - 16px);
+    }
+    .menu{
+        gap: 24px;
+    }
+    .projects .service-title{
+        min-height: 114px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .service-title{
+        font-size: 24px;
+    }
+    .product-title{
+        padding-right: 0;
+        gap: 60px;
+    }
+    .product-desc > div{
+        width: 100%;
+    }
+    .working-desc{
+        font-size: 18px;
+        max-width: 500px;
+    }
+    .mechanism-item{
+        padding: 48px;
+    }
+    .mechanism-left h4{
+        font-size: 28px;
+    }
+    .mechanism-item ul li{
+        font-size: 16px;
+    }
+    .feature-item h4{
+        font-size: 20px;
+    }
+    .other-item{
+        width: 100%;
+    }
+    .projects-cols .working-list-projects .working-item{
+        width: calc(100% / 2 - 16px);
+    }
+}
+@media screen and (max-width: 990px){
+    .banner-title{
+        font-size: 48px;
+    }
+    .banner-text{
+        font-size: 18px;
+    }
+    .service-item{
+        width: 100%
+    }
+    .service-title{
+        min-height: auto;
+    }
+    .product{
+        width: 100%;
+    }
+    .working-info-item{
+        font-size: 18px;
+        gap: 20px;
+    }
+    .menu-icon{
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        opacity: 0.4;
+
+    }
+    .menu-close{
+        align-items: center;
+        margin-left: auto;
+        opacity: 0.4;
+
+    }
+    header{
+        padding-top: 50px;
+    }
+    nav{
+        flex-wrap: wrap;
+    }
+    .main-menu path{
+        fill:    #0E1118;
+    }
+    .main-menu{
+        display: none;
+        width: 100%;
+        order: 4;
+        margin-top: 30px;
+
+    }
+
+    .menu{
+        padding-left: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .working-item{
+        gap: 16px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .working-item{
+        flex-direction: column;
+    }
+    .working-item-right{
+        width: 240px;
+    }
+    .section-title{
+        font-size: 32px;
+        margin-bottom: 48px;
+    }
+    .line{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .feature-item h4{
+        font-size: 16px;
+    }
+    .feature-item{
+        width: 100%;
+        min-height: auto;
+    }
+    .service-title{
+        font-size: 20px;
+    }
+    .projects .working-item{
+        width: 100%;
+    }
+    .projects .working-desc{
+        max-width: 100%;
+    }
+    .deals .product{
+        width: 480px;
+    }
+    .projects-cols .working-list-projects .working-item{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .banner-title {
+        font-size: 30px;
+
+    }
+    .btn-blue{
+        padding: 32px 60px;
+    }
+    section, header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .product-desc{
+        flex-wrap: wrap;
+    }
+    .working-info{
+        flex-wrap: wrap;
+    }
+    img{
+        max-width: 100%;
+    }
+    .mechanism-item{
+        flex-direction: column;
+    }
+    .mechanism-right{
+        text-align: center;
+    }
+    .section-title{
+        font-size: 28px;
+    }
+    .service-item img{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .lang-block {
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 20px;
+    }
+    .banner-title{
+        line-height: 32px;
+    }
+    .product-title{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mechanism-item{
+        padding: 20px;
+    }
+    .deals .product{
+        width: 320px;
+    }
+    .deals .product-title h4{
+        font-size: 20px;
+    }
+}
